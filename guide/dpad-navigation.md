@@ -54,7 +54,7 @@ Only elements explicitly containing the `.focusable` class will capture focus. W
 .focusable.focused {
   border-color: var(--vp-c-brand-1);
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.4);
 }
 ```
 
