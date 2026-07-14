@@ -7,6 +7,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     siteTitle: 'AnimeTV DevDocs',
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/getting-started' },
@@ -24,7 +27,9 @@ export default defineConfig({
         text: 'Architecture',
         items: [
           { text: 'Clean Architecture', link: '/guide/architecture' },
-          { text: 'Naming Refactor Plan', link: '/guide/naming-refactor' }
+          { text: 'Naming Refactor Plan', link: '/guide/naming-refactor' },
+          { text: 'D-Pad Navigation Engine', link: '/guide/dpad-navigation' },
+          { text: 'Headless Scraping & JS Injection', link: '/guide/webview-scraping' }
         ]
       },
       {

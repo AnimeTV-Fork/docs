@@ -1,3 +1,11 @@
+/* Brand color overrides */
+:root {
+  --vp-c-brand-1: #e50914; /* AnimeTV Brand Red */
+  --vp-c-brand-2: #c40811;
+  --vp-c-brand-3: #ff2a35;
+  --vp-c-brand-soft: rgba(229, 9, 20, 0.12);
+}
+
 /* Custom card styling and animations */
 .VPFeature {
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.3s ease !important;
@@ -5,6 +13,6 @@
 
 .VPFeature:hover {
   transform: translateY(-6px) scale(1.01);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 20px rgba(229, 9, 20, 0.15);
   border-color: var(--vp-c-brand-1) !important;
 }
