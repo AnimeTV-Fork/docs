@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Automatic Deployment Filter:** This site only builds and deploys to GitHub Pages when commit messages start with the **`build:`** prefix (e.g., `build: fixed typo`). Other commits bypass deployment to save run minutes.
+
 # AnimeTV Developer Documentation
 
 This repository contains the source code for the AnimeTV Developer Documentation, built using VitePress.
