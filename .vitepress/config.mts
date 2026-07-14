@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "AnimeTV Docs",
+  base: '/docs/',
   ignoreDeadLinks: true,
   description: "Developer Documentation for AnimeTV",
   themeConfig: {
