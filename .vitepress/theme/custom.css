@@ -1,0 +1,10 @@
+/* Custom card styling and animations */
+.VPFeature {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.3s ease !important;
+}
+
+.VPFeature:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  border-color: var(--vp-c-brand-1) !important;
+}
